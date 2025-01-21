@@ -12,13 +12,15 @@ Got it! Here’s a **detailed to-do list** that breaks down the **features** of 
 
 ### **2. Moderation Commands**
 - **Goal**: Add basic moderation commands like `kick` and `ban` to manage users.
-  - [ ] **Create a `kick` command**:
-    - [ ] Check if the bot has permission to kick users.
-    - [ ] Kick the targeted user and notify the channel.
-  - [ ] **Create a `ban` command**:
-    - [ ] Check if the bot has permission to ban users.
-    - [ ] Ban the targeted user and notify the channel.
-
+  - [x] **Create a `kicking` command**:
+    - [x] Check if the bot has permission to kick users.
+    - [x] Kick the targeted user and notify the channel.
+  - [x] **Create a `baning` command**:
+    - [x] Check if the bot has permission to ban users.
+    - [x] Ban the targeted user and notify the channel.
+  - [x] **Create a `unban` command**:
+    - [x] Check if the bot has permission to unban users.
+    - [x] Ban the targeted user and notify the channel.
 ---
 
 ### **3. Reaction Roles**
