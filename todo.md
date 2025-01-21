@@ -1,6 +1,3 @@
-Got it! Here’s a **detailed to-do list** that breaks down the **features** of the **Mini Multi-Utility Discord Bot** into actionable tasks:
-
----
 
 ### **1. Welcome System**
 - **Goal**: Automatically welcome new users and assign them a role.
