@@ -53,8 +53,10 @@ npx ts-node src/index.ts
 ## Commands
 
 ### **Moderation Commands**
-- `!kick @user` - Kicks the specified user from the server.
-- `!ban @user` - Bans the specified user from the server.
+- `/kicking @user` - Kicks the specified user from the server.
+- `/baning @user` - Bans the specified user from the server.
+- `/unban @user` - Bans the specified user from the server.
+
 
 ### **Fun Commands**
 - `!joke` - Fetches a random joke.
