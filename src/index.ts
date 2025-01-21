@@ -1,7 +1,8 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import * as dotenv from 'dotenv';
 import { handleGuildMemberAdd } from './events/guildMemberAdd';
-
+import { handleInteraction } from './handlers/interactionHandler';
+import './config/deployCommands'
 // Load environment variables
 dotenv.config();
 
@@ -25,5 +26,10 @@ client.once('ready', () => {
 client.on('guildMemberAdd',(member)=>{
     handleGuildMemberAdd(client,member)
 })
+
+client.on('interactionCreate', (interaction) => {
+  handleInteraction(client, interaction);
+});
+
 // Log in
 client.login(process.env.DISCORD_TOKEN);
