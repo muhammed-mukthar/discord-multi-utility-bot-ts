@@ -4,9 +4,9 @@ Got it! Here’s a **detailed to-do list** that breaks down the **features** of 
 
 ### **1. Welcome System**
 - **Goal**: Automatically welcome new users and assign them a role.
-  - [ ] **Listen for new members joining** the server (`guildMemberAdd` event).
-  - [ ] **Send a welcome message** to the `welcome` channel when a user joins.
-  - [ ] **Assign a default role** (e.g., "Member") to the new user.
+  - [x] **Listen for new members joining** the server (`guildMemberAdd` event).
+  - [x] **Send a welcome message** to the `welcome` channel when a user joins.
+  - [x] **Assign a default role** (e.g., "Member") to the new user.
 
 ---
 
