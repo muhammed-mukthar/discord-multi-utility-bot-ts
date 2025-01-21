@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",         // Output folder for compiled files
+    "rootDir": "./src",         // Root folder for source files
+    "target": "ESNext",         // ECMAScript version to compile to
+    "module": "CommonJS",       // Module system (or ESNext for ESM)
+    "strict": true,             // Enable strict type-checking options
+    "esModuleInterop": true,    // Enable compatibility with ES modules
+    "skipLibCheck": true        // Skip type-checking of declaration files
+  },
+  "include": ["src/**/*"],       // Include all files in src
+  "exclude": ["node_modules"]    // Exclude node_modules
+}
